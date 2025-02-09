@@ -1,0 +1,130 @@
+* {
+  font-family: "Be Vietnam Pro", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  background: rgb(15, 31, 63);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* stilizare Content */
+.containerComp {
+  position: relative;
+  min-width: 50rem;
+  min-height: 43rem;
+  background-color: rgb(27, 47, 89);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* stilizare Header */
+.containerHeader {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bx-bowl-rice {
+  font-size: 2rem;
+}
+
+/* stilizarea List */
+.containerFormList {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+form input {
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  outline: none;
+  font-weight: 400;
+}
+
+form button {
+  border-radius: 5px;
+  color: rgb(39, 81, 155);
+  font-weight: 500;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #e4e9ef;
+}
+.containerList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerList ul {
+  list-style-type: circle;
+  margin-top: -0.1rem;
+}
+
+.containerList button {
+  margin-top: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  background: rgb(27, 53, 99);
+  border: 1px solid rgb(103, 137, 192);
+  height: 2rem;
+  cursor: pointer;
+  width: 20rem;
+}
+
+.containerList button:hover {
+  background: rgb(37, 62, 107);
+}
+
+/* stilizare Recipe */
+.containerRecipe {
+  position: relative;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  align-self: center;
+  width: 30rem;
+  margin-bottom: 3rem;
+}
+
+.recipeTitle {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
